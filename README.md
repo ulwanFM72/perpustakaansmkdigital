@@ -55,48 +55,6 @@ perpustakaan/
 
 ---
 
-## 🚀 Cara Menjalankan
-
-### 1. Install XAMPP
-Download di: https://www.apachefriends.org/  
-Aktifkan **Apache** dan **MySQL**.
-
-### 2. Letakkan folder project
-Salin folder `perpustakaan` ke:
-```
-C:\xampp\htdocs\perpustakaan\
-```
-
-### 3. Buat database
-Buka browser → `http://localhost/phpmyadmin`
-- Klik **New** → buat database bernama `perpustakaan_db`
-- Klik tab **Import**
-- Pilih file `database.sql` dari folder project
-- Klik **Go** / Import
-
-### 4. Sesuaikan konfigurasi (jika perlu)
-Buka file `config/database.php`:
-```php
-define('DB_HOST', 'localhost');   // biasanya tidak perlu diubah
-define('DB_USER', 'root');        // username MySQL kamu
-define('DB_PASS', '');            // password MySQL (default kosong di XAMPP)
-define('DB_NAME', 'perpustakaan_db');
-define('BASE_URL', 'http://localhost/perpustakaan');  // sesuaikan nama folder
-```
-
-### 5. Buka di browser
-```
-http://localhost/perpustakaan
-```
-
-### 6. Login
-| Field    | Value      |
-|----------|------------|
-| Username | `admin`    |
-| Password | `admin123` |
-
----
-
 ## ⚙️ Konfigurasi Denda
 
 Buka `config/database.php`, ubah nilai ini:
