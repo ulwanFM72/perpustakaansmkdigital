@@ -121,5 +121,5 @@ UPDATE pengaturan SET denda_per_hari=2000, maks_pinjam=3, maks_hari=7;
 
 ---
 
-Dibuat dengan ❤️ untuk tugas perpustakaan sekolah.
+Tujuan dibuatnya ini untuk menopang seluruh aktivitas penjaga perpus dalam mengelola system peminjaman.
 # perpustakaansmkdigital
