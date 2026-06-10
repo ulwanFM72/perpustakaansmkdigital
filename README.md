@@ -105,19 +105,6 @@ UPDATE pengaturan SET denda_per_hari=2000, maks_pinjam=3, maks_hari=7;
 
 ---
 
-## ❓ Troubleshooting
-
-**Halaman tidak ditemukan (404)**  
-→ Pastikan nama folder sudah `perpustakaan` dan Apache sudah aktif.
-
-**Error koneksi database**  
-→ Pastikan MySQL aktif di XAMPP dan database sudah diimport.
-
-**Upload cover tidak berfungsi**  
-→ Pastikan folder `uploads/covers/` ada dan memiliki permission write (777).
-
-**Login gagal**  
-→ Pastikan database sudah diimport dan tabel `admin` berisi data default.
 
 ---
 
